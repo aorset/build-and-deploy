@@ -112,7 +112,7 @@ describe('the calculation controller', function () {
         expect(ctrl.result).toBe(-80);
       });
 
-      it('should calculate 1 - 7 = -5', function () {
+      it('should calculate 1 - 7 = -6', function () {
         var ctrl = createController();
         ctrl.calculate(1, 7, operator);
 
